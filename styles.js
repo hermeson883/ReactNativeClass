@@ -9,8 +9,12 @@ export const globalColors = StyleSheet.create({
         color: "#000000"
     },
     white: {
-        color: "#FFFFFF"
+        color: "#FFFFFF",
+    },
+    blueBlackground: {
+        backgroundColor: '#0098FF'
     }
+    
 
 })
 
@@ -39,7 +43,7 @@ export const flexStyleLogin = StyleSheet.create({
         display: 'flex',
         gap:20,
         // backgroundColor: "red",
-        marginVertical: '50%',
+        marginVertical: '20%',
         marginHorizontal: 40
 
     },
@@ -54,5 +58,17 @@ export const flexStyleLogin = StyleSheet.create({
     textButtons: {
         textAlign: "center",
         fontSize: 19,
+    },
+
+    inputContainer: {
+        display:'flex',
+        gap:23,
+    },
+
+    inputs: {
+        borderWidth: 1,
+        borderRadius: 8,
+        textAlign:'center',
+        height:40
     }
 })
